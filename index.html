@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="./task.css">
+</head>
+<body>
+    <center> <h2>Stopwatch - Task Manager</h2></center>
+   
+<div class="container">
+    <div class="inputs">
+    <input type="text" placeholder=" Task" id="task"></input><br><br>
+    <input type="text" placeholder=" Description" id="des"></input><br><br>
+    
+    <BR>
+    
+    <div class="circle">
+        <div class="inner-circle">
+            <span class="time" id="time">
+                <span id="hour">00  </span>:
+                <span id="minutes">00  </span>:
+                <span id="seconds">00 </span>
+            </span>
+        </div>
+    </div>
+    
+    <br><br>
+    <button type="button" id="timer" value="start">Start</button>
+    </div>
+    <div class="table">
+    <br><br>
+    <table border="1" id="tb">
+        <tr>
+            <th>Task</th>
+            <th>Description</th>
+            <th>Duration</th>
+        </tr>        
+    </table>
+    </div>
+</div>
+    <script type="module" src="./task.js"></script>
+</body>
+</html>
